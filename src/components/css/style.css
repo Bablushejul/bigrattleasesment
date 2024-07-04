@@ -1,0 +1,78 @@
+.cardE_sec{
+    max-width: 90%;
+    margin: 0px auto;
+    
+}
+.container_box  .cardcompont_row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.info_box p{
+    margin: 0px;
+    font-weight: 600;
+}
+.container_box .cardcompont .crad_img img{
+width: 100%;
+height: 250px;
+object-fit: fill;
+}
+.cardcompont{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 22.33333%;
+    flex: 0 0 22.33333%;
+    max-width: 22.33333%;
+    margin: 10px; 
+    box-shadow: rgb(0 0 0 / 19%) 0px 3px 8px;
+}
+
+
+@media (max-width: 992px) {
+    .cardcompont{
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 45.33333%;
+        flex: 0 0 45.33333%;
+        max-width: 45.33333%;
+        margin: 10px; 
+    }
+    
+  }
+
+
+  @media (max-width: 600px) {
+    .cardcompont{
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0  95.33333%;
+        flex: 0 0 95.33333%;
+        max-width: 95.33333%;
+        margin: 10px; 
+    }
+    
+  }
+
+  .info_box{
+    padding: 10px;
+  }
+
+
+  #exampleModalfilterr .cardcomponts img{
+    width: 100%;
+    height: 110px;
+    object-fit: fill;
+    
+
+  }
+
+  
+  #exampleModalfilterr .cardcomponts img{
+    display: flex;
+    align-items: center;
+    
+
+  }
+
+  .cardpuless button{
+   margin: 0px;
+
+  }
