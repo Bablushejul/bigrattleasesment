@@ -38,7 +38,6 @@ const CartContextProvider = ({ children }) => {
   };
 
   const addTocartHandler = (data) => {
-    console.log(data);
     const array = [...catrtItems];
     const index = array.findIndex((val) => val.id === data.id);
     if (index === -1) {
@@ -49,7 +48,6 @@ const CartContextProvider = ({ children }) => {
     }
 
     setCatrtItems(array);
-    console.log(data);
   };
 
   const reduceAmount = (data) => {
@@ -91,9 +89,6 @@ const CartContextProvider = ({ children }) => {
 
     setItems(filteredData); 
   };
-
-  
-
 
   
   return (
